@@ -1,0 +1,82 @@
+/* Base styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Style for the title */
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  /* Style for the nav links */
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin-right: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-left: 5px;
+    margin-right: 5px; /* Increase spacing between links */
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+    font-size: .8rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style for the active link */
+  nav ul li a.active {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  /* Hover effect */
+  nav ul li a:hover {
+    background-color: #444;
+    border-radius: 5px;
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 600px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  
+    nav ul li a {
+      width: 85%;
+      text-align: center;
+      padding: 5px;
+    }
+  }
+  
+
+  @media (min-width: 601px) {
+
+  
+    nav ul li a {
+      padding: 10px 12px; /* Slightly reduce padding for smaller screen widths */
+      margin-right: 35px;
+    }
+  }
+  
