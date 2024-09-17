@@ -7,6 +7,7 @@ import Footer from './Footer';
 import Contact from './Contact';
 import Resume from './Resume';
 import './Hero.css'; 
+import './App.css';
 
 const App: React.FC = () => {
   return (
@@ -18,7 +19,7 @@ const App: React.FC = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
-      <Footer /> {/* Adding Footer here */}
+      <Footer />
     </Router>
   );
 };
