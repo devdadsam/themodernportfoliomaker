@@ -22,7 +22,7 @@ const Contact: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Form submission logic here
+    //enter form submit code here
   };
 
   return (
@@ -37,7 +37,7 @@ const Contact: React.FC = () => {
             name="name"
             value={formData.name}
             onChange={handleInputChange}
-            onBlur={handleInputChange} // Check for empty input on blur
+            onBlur={handleInputChange} 
             required
           />
           {errors.name && <span>{errors.name}</span>}
