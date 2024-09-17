@@ -6,7 +6,7 @@ import './Header.css';
 const Header: React.FC = () => {
   return (
     <header>
-      <h1>My Portfolio</h1>
+      <h1>Sammy Kordi</h1>
       <nav>
         <ul>
           <li>

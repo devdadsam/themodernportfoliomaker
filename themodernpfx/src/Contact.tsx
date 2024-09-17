@@ -27,7 +27,7 @@ const Contact: React.FC = () => {
 
   return (
     <section>
-      <h2>Contact</h2>
+      <h2>Let's Connect!</h2>
       <form onSubmit={handleSubmit}>
         {/* Name Field */}
         <div>
