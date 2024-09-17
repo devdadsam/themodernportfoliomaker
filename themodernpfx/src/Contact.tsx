@@ -45,7 +45,7 @@ const Contact: React.FC = () => {
 
         {/* Email Field */}
         <div>
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email">Email Address</label>
           <input
             type="email"
             name="email"
